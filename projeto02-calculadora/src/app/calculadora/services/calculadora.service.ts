@@ -1,3 +1,11 @@
+/**
+ * Serviço responsavel por executar as operações da calculadora.
+ *
+ * @author Bruno Costa e Silva
+ * @since 1.0.0
+ *
+ */
+
 import { Injectable } from '@angular/core';
 
 @Injectable({
