@@ -45,7 +45,7 @@ export class TarefaService {
   alterarStatus(id: number): void {
     const tarefas: Tarefa[] = this.listarTodos();
     tarefas.forEach((obj, index, objs) => {
-      if (id = obj.id) {
+      if (id === obj.id) {
         objs[index].concluida = !obj.concluida;
       }
     });
