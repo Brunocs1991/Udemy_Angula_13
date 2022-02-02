@@ -14,12 +14,5 @@ describe('ListarTarefaComponent', () => {
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ListarTarefaComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
-
-  it('should create', () => {
-    expect(component).toBeTruthy();
   });
 });

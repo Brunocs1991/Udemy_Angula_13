@@ -14,12 +14,6 @@ describe('EditarTarefaComponent', () => {
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(EditarTarefaComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
   });
 
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
 });
