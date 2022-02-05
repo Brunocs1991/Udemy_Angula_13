@@ -1,3 +1,4 @@
+import { MoedaService } from './services/moeda.service';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
@@ -14,6 +15,9 @@ import { ConversorComponent } from './components/conversor.component';
   ],
   exports:[
     ConversorComponent
+  ],
+  providers:[
+    MoedaService
   ]
 })
 export class ConversorModule { }
