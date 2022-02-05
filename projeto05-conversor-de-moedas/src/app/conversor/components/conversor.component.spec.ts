@@ -1,3 +1,8 @@
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { ModalCotacaoComponent } from './../utils/modal-cotacao.component';
+import { DataBrPipe } from './../pipes/data-br.pipe';
+import { NumeroDirective } from './../directives/numero.directive';
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { ConversorService } from '../services/conversor.service';
 
@@ -10,8 +15,9 @@ describe('ConversorComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ConversorComponent ],
-      providers: [MoedaService, ConversorService]
+      declarations: [ ConversorComponent, NumeroDirective, DataBrPipe, ModalCotacaoComponent],
+      providers: [MoedaService, ConversorService],
+      imports: [FormsModule, HttpClientModule]
     })
     .compileComponents();
   });
