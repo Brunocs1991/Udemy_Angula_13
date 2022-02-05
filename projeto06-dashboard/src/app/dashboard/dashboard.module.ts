@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
+import { DadosService } from './dados.service';
 
 import { DashboardComponent } from './dashboard.component';
 
@@ -14,6 +15,9 @@ import { DashboardComponent } from './dashboard.component';
   ],
   exports: [
     DashboardComponent
+  ],
+  providers: [
+    DadosService
   ]
 })
 export class DashboardModule { }
