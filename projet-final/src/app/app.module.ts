@@ -1,3 +1,4 @@
+import { CalculadoraModule } from './calculadora/calculadora.module';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -16,6 +17,7 @@ import { DashboardModule } from './dashboard/dashboard.module';
     FormsModule,
     HttpClientModule,
     DashboardModule,
+    CalculadoraModule,
     AppRoutingModule
   ],
   providers: [],
