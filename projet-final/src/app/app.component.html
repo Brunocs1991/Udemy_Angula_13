@@ -2,7 +2,8 @@
   <div class="container-fluid">
     <!-- suporte a mobile -->
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Visualizar itens</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -15,11 +16,14 @@
       <ul class="nav navbar-nav">
         <li><a href="#">Inicial</a></li>
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+            aria-expanded="false">
             Projetos <span class="caret"></span>
           </a>
           <ul class="dropdown-menu">
-            <li><a href="#">Dashboard</a></li>
+            <li><a [routerLink]="['/dashboard']">
+                Dashboard
+              </a></li>
             <li role="separator" class="divider"></li>
             <li><a href="#">Calculadora</a></li>
             <li><a href="#">Conversor de moedas</a></li>
