@@ -4,6 +4,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { CalculadoraRoutes } from './calculadora/calculadora-routing.module';
 import { ConversorRoutes } from './conversor/conversor-routing.module';
 import { DashboardRoutes } from './dashboard/dashboard-routing.module';
+import { TarefasRoutes } from './tarefas/tarefas-routing.module';
+
 
 
 export const routes: Routes = [
@@ -14,7 +16,8 @@ export const routes: Routes = [
   },
   ...DashboardRoutes,
   ...CalculadoraRoutes,
-	...ConversorRoutes
+  ...ConversorRoutes,
+  ...TarefasRoutes
 ];
 
 @NgModule({
