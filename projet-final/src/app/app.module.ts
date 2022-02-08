@@ -1,3 +1,4 @@
+import { ConversorModule } from './conversor/conversor.module';
 import { CalculadoraModule } from './calculadora/calculadora.module';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
@@ -18,6 +19,7 @@ import { DashboardModule } from './dashboard/dashboard.module';
     HttpClientModule,
     DashboardModule,
     CalculadoraModule,
+    ConversorModule,
     AppRoutingModule
   ],
   providers: [],
