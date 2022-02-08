@@ -1,3 +1,4 @@
+import { JogoDaVelhaModule } from './jogo-da-velha/jogo-da-velha.module';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -22,6 +23,7 @@ import { TarefasModule } from './tarefas/tarefas.module';
     CalculadoraModule,
     ConversorModule,
     TarefasModule,
+    JogoDaVelhaModule,
     AppRoutingModule
   ],
   providers: [],
